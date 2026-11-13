@@ -27,7 +27,7 @@ public sealed class WebFormularioDesafioTest
     [TestMethod]
     public void Exercicio1_CadastroCompleto_DeveExibirMensagemDeSucesso()
     {
-        _page.FillText("Seu Nome Completo")
+        _page.FillText("Albano de Souza")
              .FillPassword("S3nh@Segura!2026")
              .FillTextarea("Tenho experiência com testes automatizados usando C#, MSTest e Selenium WebDriver.");
 
